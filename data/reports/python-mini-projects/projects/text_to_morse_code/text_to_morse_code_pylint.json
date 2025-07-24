@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "text_to_morse_code",
+        "obj": "",
+        "line": 42,
+        "column": 13,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/text_to_morse_code/text_to_morse_code.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "text_to_morse_code",
+        "obj": "",
+        "line": 36,
+        "column": 0,
+        "endLine": 36,
+        "endColumn": 6,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/text_to_morse_code/text_to_morse_code.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"output\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "text_to_morse_code",
+        "obj": "",
+        "line": 39,
+        "column": 17,
+        "endLine": 39,
+        "endColumn": 31,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/text_to_morse_code/text_to_morse_code.py",
+        "symbol": "consider-iterating-dictionary",
+        "message": "Consider iterating the dictionary directly instead of calling .keys()",
+        "message-id": "C0201"
+    }
+]

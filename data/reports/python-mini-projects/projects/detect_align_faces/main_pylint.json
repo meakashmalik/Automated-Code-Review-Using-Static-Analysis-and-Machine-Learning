@@ -1,0 +1,93 @@
+[
+    {
+        "type": "error",
+        "module": "main",
+        "obj": "",
+        "line": 7,
+        "column": 0,
+        "endLine": 7,
+        "endColumn": 18,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/detect_align_faces/main.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'numpy'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "main",
+        "obj": "",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 10,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/detect_align_faces/main.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'cv2'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "main",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 11,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/detect_align_faces/main.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'dlib'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "main",
+        "line": 32,
+        "column": 24,
+        "endLine": 32,
+        "endColumn": 37,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/detect_align_faces/main.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "refactor",
+        "module": "main",
+        "obj": "detect_align_faces",
+        "line": 36,
+        "column": 0,
+        "endLine": 36,
+        "endColumn": 22,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/detect_align_faces/main.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (20/15)",
+        "message-id": "R0914"
+    },
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 8,
+        "column": 0,
+        "endLine": 8,
+        "endColumn": 21,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/detect_align_faces/main.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"os.path\" should be placed before third party import \"numpy\"",
+        "message-id": "C0411"
+    },
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 9,
+        "column": 0,
+        "endLine": 9,
+        "endColumn": 10,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/detect_align_faces/main.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"sys\" should be placed before third party import \"numpy\"",
+        "message-id": "C0411"
+    }
+]

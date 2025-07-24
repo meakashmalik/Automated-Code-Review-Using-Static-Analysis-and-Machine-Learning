@@ -1,0 +1,54 @@
+[
+    {
+        "type": "error",
+        "module": "merge_csv_files",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 19,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Merge_csv_files/merge_csv_files.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'pandas'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "merge_csv_files",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 9,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Merge_csv_files/merge_csv_files.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"extension\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "refactor",
+        "module": "merge_csv_files",
+        "obj": "",
+        "line": 5,
+        "column": 16,
+        "endLine": 5,
+        "endColumn": 64,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Merge_csv_files/merge_csv_files.py",
+        "symbol": "unnecessary-comprehension",
+        "message": "Unnecessary use of a comprehension, use list(glob.glob('*.{}'.format(extension))) instead.",
+        "message-id": "R1721"
+    },
+    {
+        "type": "convention",
+        "module": "merge_csv_files",
+        "obj": "",
+        "line": 5,
+        "column": 38,
+        "endLine": 5,
+        "endColumn": 44,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Merge_csv_files/merge_csv_files.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    }
+]

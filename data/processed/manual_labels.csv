@@ -1,0 +1,6 @@
+message_id,code_snippet,is_false_positive
+C0103,"myvariable = 10",1
+W0611,"import os",0
+W0612,"unused_var = 5",1
+C0103,"another_variable = 20",0
+E0602,"non_existent_call()",0

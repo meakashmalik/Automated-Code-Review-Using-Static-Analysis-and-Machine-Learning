@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "converter_terminal",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 21,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Convert_JPEG_to_PNG/converter_terminal.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'PIL'",
+        "message-id": "E0401"
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "type": "convention",
+        "module": "multi_language_OCR",
+        "obj": "",
+        "line": 2,
+        "column": 21,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Multi_language_OCR/multi_language_OCR.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "multi_language_OCR",
+        "obj": "",
+        "line": 63,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Multi_language_OCR/multi_language_OCR.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "convention",
+        "module": "multi_language_OCR",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Multi_language_OCR/multi_language_OCR.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"multi_language_OCR\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "multi_language_OCR",
+        "obj": "",
+        "line": 6,
+        "column": 0,
+        "endLine": 6,
+        "endColumn": 8,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Multi_language_OCR/multi_language_OCR.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"language\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "multi_language_OCR",
+        "obj": "",
+        "line": 49,
+        "column": 0,
+        "endLine": 49,
+        "endColumn": 30,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Multi_language_OCR/multi_language_OCR.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'agentocr'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "multi_language_OCR",
+        "obj": "",
+        "line": 49,
+        "column": 0,
+        "endLine": 49,
+        "endColumn": 30,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Multi_language_OCR/multi_language_OCR.py",
+        "symbol": "wrong-import-position",
+        "message": "Import \"from agentocr import OCRSystem\" should be placed at the top of the module",
+        "message-id": "C0413"
+    }
+]

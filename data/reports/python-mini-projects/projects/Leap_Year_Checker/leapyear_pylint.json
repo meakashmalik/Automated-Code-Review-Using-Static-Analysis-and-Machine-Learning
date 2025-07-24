@@ -1,0 +1,80 @@
+[
+    {
+        "type": "convention",
+        "module": "leapyear",
+        "obj": "",
+        "line": 3,
+        "column": 65,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Leap_Year_Checker/leapyear.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "leapyear",
+        "obj": "",
+        "line": 5,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Leap_Year_Checker/leapyear.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (111/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "warning",
+        "module": "leapyear",
+        "obj": "",
+        "line": 4,
+        "column": 4,
+        "endLine": 6,
+        "endColumn": 7,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Leap_Year_Checker/leapyear.py",
+        "symbol": "pointless-string-statement",
+        "message": "String statement has no effect",
+        "message-id": "W0105"
+    },
+    {
+        "type": "convention",
+        "module": "leapyear",
+        "obj": "",
+        "line": 7,
+        "column": 10,
+        "endLine": 7,
+        "endColumn": 32,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Leap_Year_Checker/leapyear.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "warning",
+        "module": "leapyear",
+        "obj": "",
+        "line": 8,
+        "column": 4,
+        "endLine": 10,
+        "endColumn": 7,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Leap_Year_Checker/leapyear.py",
+        "symbol": "pointless-string-statement",
+        "message": "String statement has no effect",
+        "message-id": "W0105"
+    },
+    {
+        "type": "convention",
+        "module": "leapyear",
+        "obj": "",
+        "line": 12,
+        "column": 10,
+        "endLine": 12,
+        "endColumn": 36,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Leap_Year_Checker/leapyear.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "type": "error",
+        "module": "get_links",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 21,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/All_links_from_given_webpage/get_links.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'requests'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "get_links",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 29,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/All_links_from_given_webpage/get_links.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'bs4'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "warning",
+        "module": "get_links",
+        "obj": "",
+        "line": 16,
+        "column": 5,
+        "endLine": 16,
+        "endColumn": 29,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/All_links_from_given_webpage/get_links.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    }
+]

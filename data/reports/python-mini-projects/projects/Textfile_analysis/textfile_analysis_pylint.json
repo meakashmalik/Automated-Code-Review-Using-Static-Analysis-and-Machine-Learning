@@ -1,0 +1,80 @@
+[
+    {
+        "type": "convention",
+        "module": "textfile_analysis",
+        "obj": "",
+        "line": 29,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Textfile_analysis/textfile_analysis.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (110/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "convention",
+        "module": "textfile_analysis",
+        "obj": "",
+        "line": 36,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Textfile_analysis/textfile_analysis.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "refactor",
+        "module": "textfile_analysis",
+        "obj": "",
+        "line": 26,
+        "column": 29,
+        "endLine": 26,
+        "endColumn": 51,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Textfile_analysis/textfile_analysis.py",
+        "symbol": "consider-using-generator",
+        "message": "Consider using a generator instead 'sum(i[1] for i in d)'",
+        "message-id": "R1728"
+    },
+    {
+        "type": "convention",
+        "module": "textfile_analysis",
+        "obj": "",
+        "line": 28,
+        "column": 8,
+        "endLine": 28,
+        "endColumn": 21,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Textfile_analysis/textfile_analysis.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"special_chars\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "textfile_analysis",
+        "obj": "",
+        "line": 32,
+        "column": 10,
+        "endLine": 32,
+        "endColumn": 30,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Textfile_analysis/textfile_analysis.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "textfile_analysis",
+        "obj": "",
+        "line": 34,
+        "column": 10,
+        "endLine": 34,
+        "endColumn": 34,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Textfile_analysis/textfile_analysis.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    }
+]

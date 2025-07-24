@@ -1,0 +1,80 @@
+[
+    {
+        "type": "convention",
+        "module": "duplicatefileremover",
+        "obj": "",
+        "line": 8,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Duplicate files remover/duplicatefileremover.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (122/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "convention",
+        "module": "duplicatefileremover",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Duplicate files remover/duplicatefileremover.py",
+        "symbol": "superfluous-parens",
+        "message": "Unnecessary parens after 'while' keyword",
+        "message-id": "C0325"
+    },
+    {
+        "type": "convention",
+        "module": "duplicatefileremover",
+        "obj": "hashFile",
+        "line": 7,
+        "column": 0,
+        "endLine": 7,
+        "endColumn": 12,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Duplicate files remover/duplicatefileremover.py",
+        "symbol": "invalid-name",
+        "message": "Function name \"hashFile\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "duplicatefileremover",
+        "obj": "hashFile",
+        "line": 9,
+        "column": 4,
+        "endLine": 9,
+        "endColumn": 13,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Duplicate files remover/duplicatefileremover.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"BLOCKSIZE\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "duplicatefileremover",
+        "obj": "",
+        "line": 28,
+        "column": 8,
+        "endLine": 28,
+        "endColumn": 11,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Duplicate files remover/duplicatefileremover.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"key\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "duplicatefileremover",
+        "obj": "",
+        "line": 30,
+        "column": 18,
+        "endLine": 30,
+        "endColumn": 32,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Duplicate files remover/duplicatefileremover.py",
+        "symbol": "consider-iterating-dictionary",
+        "message": "Consider iterating the dictionary directly instead of calling .keys()",
+        "message-id": "C0201"
+    }
+]

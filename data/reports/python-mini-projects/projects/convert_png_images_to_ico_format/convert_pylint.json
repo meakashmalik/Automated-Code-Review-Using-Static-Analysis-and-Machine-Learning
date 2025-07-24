@@ -1,0 +1,28 @@
+[
+    {
+        "type": "convention",
+        "module": "convert",
+        "obj": "",
+        "line": 5,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/convert_png_images_to_ico_format/convert.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "error",
+        "module": "convert",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 21,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/convert_png_images_to_ico_format/convert.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'PIL'",
+        "message-id": "E0401"
+    }
+]

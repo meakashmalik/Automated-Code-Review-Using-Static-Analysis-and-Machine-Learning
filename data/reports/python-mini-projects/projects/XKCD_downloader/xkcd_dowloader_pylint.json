@@ -1,0 +1,67 @@
+[
+    {
+        "type": "convention",
+        "module": "xkcd_dowloader",
+        "obj": "",
+        "line": 33,
+        "column": 33,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/XKCD_downloader/xkcd_dowloader.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "error",
+        "module": "xkcd_dowloader",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 15,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/XKCD_downloader/xkcd_dowloader.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'requests'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "xkcd_dowloader",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 35,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/XKCD_downloader/xkcd_dowloader.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'bs4'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "xkcd_dowloader",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "endLine": 3,
+        "endColumn": 13,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/XKCD_downloader/xkcd_dowloader.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"shutil\" should be placed before third party imports \"requests\", \"bs4.BeautifulSoup\"",
+        "message-id": "C0411"
+    },
+    {
+        "type": "convention",
+        "module": "xkcd_dowloader",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 15,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/XKCD_downloader/xkcd_dowloader.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"argparse\" should be placed before third party imports \"requests\", \"bs4.BeautifulSoup\"",
+        "message-id": "C0411"
+    }
+]

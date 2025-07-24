@@ -1,0 +1,28 @@
+[
+    {
+        "type": "error",
+        "module": "spell_checker",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 29,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Spell_checker/spell_checker.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'textblob'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "spell_checker",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "endLine": 3,
+        "endColumn": 1,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Spell_checker/spell_checker.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"t\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]

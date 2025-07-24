@@ -1,0 +1,54 @@
+[
+    {
+        "type": "warning",
+        "module": "findstring",
+        "obj": "getfiles",
+        "line": 10,
+        "column": 13,
+        "endLine": 10,
+        "endColumn": 17,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/String_search_from_multiple_files/findstring.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'path' from outer scope (line 5)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "findstring",
+        "obj": "getfiles",
+        "line": 20,
+        "column": 16,
+        "endLine": 20,
+        "endColumn": 36,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/String_search_from_multiple_files/findstring.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    },
+    {
+        "type": "refactor",
+        "module": "findstring",
+        "obj": "getfiles",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 12,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/String_search_from_multiple_files/findstring.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    },
+    {
+        "type": "refactor",
+        "module": "findstring",
+        "obj": "getfiles",
+        "line": 20,
+        "column": 16,
+        "endLine": 20,
+        "endColumn": 36,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/String_search_from_multiple_files/findstring.py",
+        "symbol": "consider-using-with",
+        "message": "Consider using 'with' for resource-allocating operations",
+        "message-id": "R1732"
+    }
+]

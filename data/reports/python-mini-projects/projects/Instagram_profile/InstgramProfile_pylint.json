@@ -1,0 +1,93 @@
+[
+    {
+        "type": "convention",
+        "module": "InstgramProfile",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Instagram_profile/InstgramProfile.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"InstgramProfile\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "InstgramProfile",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 15,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Instagram_profile/InstgramProfile.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'requests'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "InstgramProfile",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 21,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Instagram_profile/InstgramProfile.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'lxml'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "InstgramProfile",
+        "obj": "main",
+        "line": 11,
+        "column": 10,
+        "endLine": 11,
+        "endColumn": 47,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Instagram_profile/InstgramProfile.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "warning",
+        "module": "InstgramProfile",
+        "obj": "",
+        "line": 46,
+        "column": 4,
+        "endLine": 46,
+        "endColumn": 21,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Instagram_profile/InstgramProfile.py",
+        "symbol": "pointless-string-statement",
+        "message": "String statement has no effect",
+        "message-id": "W0105"
+    },
+    {
+        "type": "convention",
+        "module": "InstgramProfile",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "endLine": 3,
+        "endColumn": 9,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Instagram_profile/InstgramProfile.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"re\" should be placed before third party imports \"requests\", \"lxml.html\"",
+        "message-id": "C0411"
+    },
+    {
+        "type": "convention",
+        "module": "InstgramProfile",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 10,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Instagram_profile/InstgramProfile.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"sys\" should be placed before third party imports \"requests\", \"lxml.html\"",
+        "message-id": "C0411"
+    }
+]

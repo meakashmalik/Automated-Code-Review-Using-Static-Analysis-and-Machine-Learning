@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 15,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Countdown_timer/main.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "warning",
+        "module": "main",
+        "obj": "countdown",
+        "line": 3,
+        "column": 14,
+        "endLine": 3,
+        "endColumn": 15,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Countdown_timer/main.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 't' from outer scope (line 13)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "countdown",
+        "line": 6,
+        "column": 16,
+        "endLine": 6,
+        "endColumn": 31,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Countdown_timer/main.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    }
+]

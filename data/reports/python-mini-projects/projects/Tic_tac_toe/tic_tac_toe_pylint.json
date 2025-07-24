@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "tic_tac_toe",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 7,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Tic_tac_toe/tic_tac_toe.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"players\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "tic_tac_toe",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "endLine": 3,
+        "endColumn": 5,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Tic_tac_toe/tic_tac_toe.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"board\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "refactor",
+        "module": "tic_tac_toe",
+        "obj": "check_win",
+        "line": 18,
+        "column": 0,
+        "endLine": 18,
+        "endColumn": 13,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Tic_tac_toe/tic_tac_toe.py",
+        "symbol": "inconsistent-return-statements",
+        "message": "Either all return statements in a function should return an expression, or none of them should.",
+        "message-id": "R1710"
+    }
+]

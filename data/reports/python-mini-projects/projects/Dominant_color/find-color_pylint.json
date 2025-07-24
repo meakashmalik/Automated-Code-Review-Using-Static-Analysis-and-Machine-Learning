@@ -1,0 +1,67 @@
+[
+    {
+        "type": "convention",
+        "module": "find-color",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Dominant_color/find-color.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"find-color\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "find-color",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 10,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Dominant_color/find-color.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'cv2'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "find-color",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 18,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Dominant_color/find-color.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'numpy'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "warning",
+        "module": "find-color",
+        "obj": "",
+        "line": 8,
+        "column": 7,
+        "endLine": 8,
+        "endColumn": 16,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Dominant_color/find-color.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "refactor",
+        "module": "find-color",
+        "obj": "",
+        "line": 10,
+        "column": 4,
+        "endLine": 10,
+        "endColumn": 10,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Dominant_color/find-color.py",
+        "symbol": "consider-using-sys-exit",
+        "message": "Consider using 'sys.exit' instead",
+        "message-id": "R1722"
+    }
+]

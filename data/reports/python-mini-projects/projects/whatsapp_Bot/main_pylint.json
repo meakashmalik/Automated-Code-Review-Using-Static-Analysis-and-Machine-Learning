@@ -1,0 +1,28 @@
+[
+    {
+        "type": "error",
+        "module": "main",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 16,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/whatsapp_Bot/main.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'pywhatkit'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 29,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/whatsapp_Bot/main.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"datetime.datetime\" should be placed before third party import \"pywhatkit\"",
+        "message-id": "C0411"
+    }
+]

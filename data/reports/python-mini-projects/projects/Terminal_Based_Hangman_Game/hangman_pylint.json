@@ -1,0 +1,41 @@
+[
+    {
+        "type": "warning",
+        "module": "hangman",
+        "obj": "get_word",
+        "line": 7,
+        "column": 9,
+        "endLine": 7,
+        "endColumn": 27,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Terminal_Based_Hangman_Game/hangman.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    },
+    {
+        "type": "convention",
+        "module": "hangman",
+        "obj": "get_word",
+        "line": 9,
+        "column": 4,
+        "endLine": 9,
+        "endColumn": 13,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Terminal_Based_Hangman_Game/hangman.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"wordArray\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "refactor",
+        "module": "hangman",
+        "obj": "play",
+        "line": 16,
+        "column": 0,
+        "endLine": 16,
+        "endColumn": 8,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Terminal_Based_Hangman_Game/hangman.py",
+        "symbol": "too-many-branches",
+        "message": "Too many branches (14/12)",
+        "message-id": "R0912"
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "type": "warning",
+        "module": "digital_clock",
+        "obj": "light_theme",
+        "line": 6,
+        "column": 4,
+        "endLine": 6,
+        "endColumn": 9,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Digital_clock/digital_clock.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'frame' from outer scope (line 38)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "digital_clock",
+        "obj": "light_theme.time",
+        "line": 12,
+        "column": 4,
+        "endLine": 12,
+        "endColumn": 12,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Digital_clock/digital_clock.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'time' from outer scope (line 44)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "digital_clock",
+        "obj": "dark_theme",
+        "line": 20,
+        "column": 4,
+        "endLine": 20,
+        "endColumn": 9,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Digital_clock/digital_clock.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'frame' from outer scope (line 38)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "digital_clock",
+        "obj": "dark_theme.time",
+        "line": 26,
+        "column": 4,
+        "endLine": 26,
+        "endColumn": 12,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Digital_clock/digital_clock.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'time' from outer scope (line 44)",
+        "message-id": "W0621"
+    }
+]

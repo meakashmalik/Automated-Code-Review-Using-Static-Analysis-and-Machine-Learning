@@ -1,0 +1,80 @@
+[
+    {
+        "type": "error",
+        "module": "aes_encode",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 29,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Encrypt_and_decrypt_text/aes_encode.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'Crypto.Cipher'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "aes_encode",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 25,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Encrypt_and_decrypt_text/aes_encode.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'Crypto'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "aes_encode",
+        "obj": "",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 3,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Encrypt_and_decrypt_text/aes_encode.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"key\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "aes_encode",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "endLine": 3,
+        "endColumn": 28,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Encrypt_and_decrypt_text/aes_encode.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"binascii.b2a_hex\" should be placed before third party imports \"Crypto.Cipher.AES\", \"Crypto.Random\"",
+        "message-id": "C0411"
+    },
+    {
+        "type": "convention",
+        "module": "aes_encode",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 10,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Encrypt_and_decrypt_text/aes_encode.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"sys\" should be placed before third party imports \"Crypto.Cipher.AES\", \"Crypto.Random\"",
+        "message-id": "C0411"
+    },
+    {
+        "type": "refactor",
+        "module": "aes_encode",
+        "obj": "",
+        "line": 31,
+        "column": 11,
+        "endLine": 31,
+        "endColumn": 38,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Encrypt_and_decrypt_text/aes_encode.py",
+        "symbol": "consider-using-with",
+        "message": "Consider using 'with' for resource-allocating operations",
+        "message-id": "R1732"
+    }
+]

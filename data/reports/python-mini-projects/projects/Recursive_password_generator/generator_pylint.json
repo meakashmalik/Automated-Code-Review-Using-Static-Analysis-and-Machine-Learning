@@ -1,0 +1,67 @@
+[
+    {
+        "type": "warning",
+        "module": "generator",
+        "obj": "stretch",
+        "line": 4,
+        "column": 17,
+        "endLine": 4,
+        "endColumn": 26,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Recursive_password_generator/generator.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'maxlength' from outer scope (line 19)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "generator",
+        "obj": "stretch",
+        "line": 5,
+        "column": 4,
+        "endLine": 9,
+        "endColumn": 19,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Recursive_password_generator/generator.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    },
+    {
+        "type": "convention",
+        "module": "generator",
+        "obj": "stretch",
+        "line": 6,
+        "column": 8,
+        "endLine": 6,
+        "endColumn": 18,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Recursive_password_generator/generator.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"randomChar\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "generator",
+        "obj": "get_random_char",
+        "line": 13,
+        "column": 4,
+        "endLine": 13,
+        "endColumn": 14,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Recursive_password_generator/generator.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"randomChar\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "warning",
+        "module": "generator",
+        "obj": "",
+        "line": 21,
+        "column": 4,
+        "endLine": 24,
+        "endColumn": 40,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Recursive_password_generator/generator.py",
+        "symbol": "bare-except",
+        "message": "No exception type(s) specified",
+        "message-id": "W0702"
+    }
+]

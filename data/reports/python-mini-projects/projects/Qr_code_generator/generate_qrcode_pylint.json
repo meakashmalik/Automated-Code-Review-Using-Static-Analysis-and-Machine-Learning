@@ -1,0 +1,28 @@
+[
+    {
+        "type": "error",
+        "module": "generate_qrcode",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 13,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Qr_code_generator/generate_qrcode.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'qrcode'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "generate_qrcode",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "endLine": 3,
+        "endColumn": 9,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Qr_code_generator/generate_qrcode.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"input_URL\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]

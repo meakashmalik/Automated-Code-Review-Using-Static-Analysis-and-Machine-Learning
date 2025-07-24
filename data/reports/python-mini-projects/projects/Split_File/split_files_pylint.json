@@ -1,0 +1,54 @@
+[
+    {
+        "type": "error",
+        "module": "split_files",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 19,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Split_File/split_files.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'pandas'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "split_files",
+        "obj": "Split_Files",
+        "line": 6,
+        "column": 0,
+        "endLine": 6,
+        "endColumn": 17,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Split_File/split_files.py",
+        "symbol": "invalid-name",
+        "message": "Class name \"Split_Files\" doesn't conform to PascalCase naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "warning",
+        "module": "split_files",
+        "obj": "Split_Files.__init__",
+        "line": 10,
+        "column": 33,
+        "endLine": 10,
+        "endColumn": 45,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Split_File/split_files.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'split_number' from outer scope (line 53)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "split_files",
+        "obj": "Split_Files",
+        "line": 6,
+        "column": 0,
+        "endLine": 6,
+        "endColumn": 17,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Split_File/split_files.py",
+        "symbol": "too-few-public-methods",
+        "message": "Too few public methods (1/2)",
+        "message-id": "R0903"
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "Hostname_IPaddress",
+        "obj": "",
+        "line": 13,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Find_out_hostname_and_ip_address/Hostname_IPaddress.py",
+        "symbol": "trailing-newlines",
+        "message": "Trailing newlines",
+        "message-id": "C0305"
+    },
+    {
+        "type": "convention",
+        "module": "Hostname_IPaddress",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Find_out_hostname_and_ip_address/Hostname_IPaddress.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"Hostname_IPaddress\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "Hostname_IPaddress",
+        "obj": "get_hostname_IP",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 19,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Find_out_hostname_and_ip_address/Hostname_IPaddress.py",
+        "symbol": "invalid-name",
+        "message": "Function name \"get_hostname_IP\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    }
+]

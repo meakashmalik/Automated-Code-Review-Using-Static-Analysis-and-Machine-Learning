@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "utils.comparison",
+        "obj": "",
+        "line": 46,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Web_page_summation/utils/comparison.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (104/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "error",
+        "module": "utils.comparison",
+        "obj": "",
+        "line": 5,
+        "column": 0,
+        "endLine": 5,
+        "endColumn": 49,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Web_page_summation/utils/comparison.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'sumeval.metrics.rouge'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "utils.comparison",
+        "obj": "",
+        "line": 6,
+        "column": 0,
+        "endLine": 6,
+        "endColumn": 47,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Web_page_summation/utils/comparison.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'sumeval.metrics.bleu'",
+        "message-id": "E0401"
+    }
+]

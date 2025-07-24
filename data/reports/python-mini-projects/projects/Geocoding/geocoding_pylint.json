@@ -1,0 +1,41 @@
+[
+    {
+        "type": "error",
+        "module": "geocoding",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 15,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Geocoding/geocoding.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'requests'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "geocoding",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 3,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Geocoding/geocoding.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"url\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "geocoding",
+        "obj": "",
+        "line": 10,
+        "column": 0,
+        "endLine": 10,
+        "endColumn": 13,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Geocoding/geocoding.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"private_token\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]

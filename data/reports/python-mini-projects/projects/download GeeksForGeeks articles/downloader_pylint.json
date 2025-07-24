@@ -1,0 +1,93 @@
+[
+    {
+        "type": "error",
+        "module": "downloader",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 30,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/download GeeksForGeeks articles/downloader.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'selenium'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "downloader",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "endLine": 3,
+        "endColumn": 56,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/download GeeksForGeeks articles/downloader.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'webdriver_manager.chrome'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "downloader",
+        "obj": "",
+        "line": 5,
+        "column": 0,
+        "endLine": 5,
+        "endColumn": 15,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/download GeeksForGeeks articles/downloader.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'requests'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "downloader",
+        "obj": "download_article",
+        "line": 35,
+        "column": 21,
+        "endLine": 35,
+        "endColumn": 24,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/download GeeksForGeeks articles/downloader.py",
+        "symbol": "invalid-name",
+        "message": "Argument name \"URL\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "warning",
+        "module": "downloader",
+        "obj": "download_article",
+        "line": 35,
+        "column": 21,
+        "endLine": 35,
+        "endColumn": 24,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/download GeeksForGeeks articles/downloader.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'URL' from outer scope (line 45)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "downloader",
+        "obj": "",
+        "line": 51,
+        "column": 15,
+        "endLine": 51,
+        "endColumn": 24,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/download GeeksForGeeks articles/downloader.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "convention",
+        "module": "downloader",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 11,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/download GeeksForGeeks articles/downloader.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"json\" should be placed before third party imports \"selenium.webdriver\", \"webdriver_manager.chrome.ChromeDriverManager\"",
+        "message-id": "C0411"
+    }
+]

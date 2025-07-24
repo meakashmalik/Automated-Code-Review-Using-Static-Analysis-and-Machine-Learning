@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "Hello",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Hello/Hello.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"Hello\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    }
+]

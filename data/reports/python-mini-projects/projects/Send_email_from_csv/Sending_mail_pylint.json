@@ -1,0 +1,54 @@
+[
+    {
+        "type": "convention",
+        "module": "Sending_mail",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Send_email_from_csv/Sending_mail.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"Sending_mail\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "warning",
+        "module": "Sending_mail",
+        "obj": "get_credentials",
+        "line": 7,
+        "column": 9,
+        "endLine": 7,
+        "endColumn": 37,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Send_email_from_csv/Sending_mail.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    },
+    {
+        "type": "warning",
+        "module": "Sending_mail",
+        "obj": "get_credentials",
+        "line": 6,
+        "column": 20,
+        "endLine": 6,
+        "endColumn": 28,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Send_email_from_csv/Sending_mail.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'filepath'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "Sending_mail",
+        "obj": "send_mail",
+        "line": 40,
+        "column": 9,
+        "endLine": 40,
+        "endColumn": 39,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Send_email_from_csv/Sending_mail.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    }
+]

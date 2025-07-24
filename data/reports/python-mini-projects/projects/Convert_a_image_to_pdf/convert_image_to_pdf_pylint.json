@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "convert_image_to_pdf",
+        "obj": "",
+        "line": 23,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Convert_a_image_to_pdf/convert_image_to_pdf.py",
+        "symbol": "trailing-newlines",
+        "message": "Trailing newlines",
+        "message-id": "C0305"
+    },
+    {
+        "type": "error",
+        "module": "convert_image_to_pdf",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 14,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Convert_a_image_to_pdf/convert_image_to_pdf.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'img2pdf'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "convert_image_to_pdf",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "endLine": 3,
+        "endColumn": 9,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Convert_a_image_to_pdf/convert_image_to_pdf.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"os\" should be placed before third party import \"img2pdf\"",
+        "message-id": "C0411"
+    }
+]

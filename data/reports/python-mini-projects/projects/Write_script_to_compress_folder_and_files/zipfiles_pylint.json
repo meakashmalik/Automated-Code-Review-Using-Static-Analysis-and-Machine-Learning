@@ -1,0 +1,54 @@
+[
+    {
+        "type": "error",
+        "module": "zipfiles",
+        "obj": "zip_file",
+        "line": 9,
+        "column": 24,
+        "endLine": 9,
+        "endColumn": 28,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_script_to_compress_folder_and_files/zipfiles.py",
+        "symbol": "possibly-used-before-assignment",
+        "message": "Possibly using variable 'path' before assignment",
+        "message-id": "E0606"
+    },
+    {
+        "type": "refactor",
+        "module": "zipfiles",
+        "obj": "zip_file",
+        "line": 8,
+        "column": 20,
+        "endLine": 8,
+        "endColumn": 60,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_script_to_compress_folder_and_files/zipfiles.py",
+        "symbol": "consider-using-with",
+        "message": "Consider using 'with' for resource-allocating operations",
+        "message-id": "R1732"
+    },
+    {
+        "type": "warning",
+        "module": "zipfiles",
+        "obj": "retrieve_file_paths",
+        "line": 19,
+        "column": 14,
+        "endLine": 19,
+        "endColumn": 25,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_script_to_compress_folder_and_files/zipfiles.py",
+        "symbol": "unused-variable",
+        "message": "Unused variable 'directories'",
+        "message-id": "W0612"
+    },
+    {
+        "type": "convention",
+        "module": "zipfiles",
+        "obj": "",
+        "line": 49,
+        "column": 14,
+        "endLine": 49,
+        "endColumn": 38,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_script_to_compress_folder_and_files/zipfiles.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    }
+]

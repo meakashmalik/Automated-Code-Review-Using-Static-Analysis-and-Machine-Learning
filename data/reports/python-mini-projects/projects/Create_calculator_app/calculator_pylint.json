@@ -1,0 +1,93 @@
+[
+    {
+        "type": "warning",
+        "module": "calculator",
+        "obj": "calc",
+        "line": 24,
+        "column": 21,
+        "endLine": 24,
+        "endColumn": 45,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Create_calculator_app/calculator.py",
+        "symbol": "eval-used",
+        "message": "Use of eval",
+        "message-id": "W0123"
+    },
+    {
+        "type": "convention",
+        "module": "calculator",
+        "obj": "popupmsg",
+        "line": 39,
+        "column": 4,
+        "endLine": 39,
+        "endColumn": 6,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Create_calculator_app/calculator.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"B1\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "refactor",
+        "module": "calculator",
+        "obj": "cal",
+        "line": 43,
+        "column": 0,
+        "endLine": 43,
+        "endColumn": 7,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Create_calculator_app/calculator.py",
+        "symbol": "too-many-locals",
+        "message": "Too many local variables (31/15)",
+        "message-id": "R0914"
+    },
+    {
+        "type": "warning",
+        "module": "calculator",
+        "obj": "cal.quit",
+        "line": 128,
+        "column": 4,
+        "endLine": 128,
+        "endColumn": 12,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Create_calculator_app/calculator.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'quit'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "warning",
+        "module": "calculator",
+        "obj": "cal",
+        "line": 130,
+        "column": 4,
+        "endLine": 130,
+        "endColumn": 8,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Create_calculator_app/calculator.py",
+        "symbol": "redefined-builtin",
+        "message": "Redefining built-in 'exit'",
+        "message-id": "W0622"
+    },
+    {
+        "type": "error",
+        "module": "calculator",
+        "obj": "cal.quit",
+        "line": 129,
+        "column": 8,
+        "endLine": 129,
+        "endColumn": 37,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Create_calculator_app/calculator.py",
+        "symbol": "assignment-from-no-return",
+        "message": "Assigning result of a function call, where the function has no return",
+        "message-id": "E1111"
+    },
+    {
+        "type": "refactor",
+        "module": "calculator",
+        "obj": "cal",
+        "line": 43,
+        "column": 0,
+        "endLine": 43,
+        "endColumn": 7,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Create_calculator_app/calculator.py",
+        "symbol": "too-many-statements",
+        "message": "Too many statements (56/50)",
+        "message-id": "R0915"
+    }
+]

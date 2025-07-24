@@ -1,0 +1,28 @@
+[
+    {
+        "type": "convention",
+        "module": "wifi",
+        "obj": "",
+        "line": 18,
+        "column": 14,
+        "endLine": 18,
+        "endColumn": 29,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Get_wifi_password/wifi.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "wifi",
+        "obj": "",
+        "line": 20,
+        "column": 14,
+        "endLine": 20,
+        "endColumn": 29,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Get_wifi_password/wifi.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    }
+]

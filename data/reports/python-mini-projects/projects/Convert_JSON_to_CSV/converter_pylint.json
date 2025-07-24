@@ -1,0 +1,54 @@
+[
+    {
+        "type": "warning",
+        "module": "converter",
+        "obj": "",
+        "line": 14,
+        "column": 11,
+        "endLine": 14,
+        "endColumn": 20,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Convert_JSON_to_CSV/converter.py",
+        "symbol": "broad-exception-caught",
+        "message": "Catching too general exception Exception",
+        "message-id": "W0718"
+    },
+    {
+        "type": "warning",
+        "module": "converter",
+        "obj": "",
+        "line": 5,
+        "column": 13,
+        "endLine": 5,
+        "endColumn": 36,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Convert_JSON_to_CSV/converter.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    },
+    {
+        "type": "convention",
+        "module": "converter",
+        "obj": "",
+        "line": 8,
+        "column": 8,
+        "endLine": 8,
+        "endColumn": 14,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Convert_JSON_to_CSV/converter.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"output\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "warning",
+        "module": "converter",
+        "obj": "",
+        "line": 12,
+        "column": 13,
+        "endLine": 12,
+        "endColumn": 36,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Convert_JSON_to_CSV/converter.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "type": "error",
+        "module": "reduce_image_size",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 10,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Reduce_image_file_size/reduce_image_size.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'cv2'",
+        "message-id": "E0401"
+    }
+]

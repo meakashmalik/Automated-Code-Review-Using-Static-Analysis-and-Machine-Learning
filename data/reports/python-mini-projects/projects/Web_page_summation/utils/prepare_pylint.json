@@ -1,0 +1,15 @@
+[
+    {
+        "type": "convention",
+        "module": "utils.prepare",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "endLine": 3,
+        "endColumn": 12,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Web_page_summation/utils/prepare.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"default_path\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]

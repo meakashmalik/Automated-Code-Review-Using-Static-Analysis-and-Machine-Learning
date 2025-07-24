@@ -1,0 +1,54 @@
+[
+    {
+        "type": "convention",
+        "module": "wiki_random",
+        "obj": "",
+        "line": 25,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Random_Wikipedia_Article/wiki_random.py",
+        "symbol": "trailing-newlines",
+        "message": "Trailing newlines",
+        "message-id": "C0305"
+    },
+    {
+        "type": "error",
+        "module": "wiki_random",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 29,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Random_Wikipedia_Article/wiki_random.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'bs4'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "wiki_random",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 15,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Random_Wikipedia_Article/wiki_random.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'requests'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "refactor",
+        "module": "wiki_random",
+        "obj": "",
+        "line": 12,
+        "column": 4,
+        "endLine": 12,
+        "endColumn": 51,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Random_Wikipedia_Article/wiki_random.py",
+        "symbol": "consider-using-with",
+        "message": "Consider using 'with' for resource-allocating operations",
+        "message-id": "R1732"
+    }
+]

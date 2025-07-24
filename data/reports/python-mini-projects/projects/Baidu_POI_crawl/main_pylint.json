@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 27,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Baidu_POI_crawl/main.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "warning",
+        "module": "main",
+        "obj": "run",
+        "line": 7,
+        "column": 8,
+        "endLine": 7,
+        "endColumn": 12,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Baidu_POI_crawl/main.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'args' from outer scope (line 26)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 15,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Baidu_POI_crawl/main.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"argparse\" should be placed before third party import \"util.get_baidu_poi\"",
+        "message-id": "C0411"
+    }
+]

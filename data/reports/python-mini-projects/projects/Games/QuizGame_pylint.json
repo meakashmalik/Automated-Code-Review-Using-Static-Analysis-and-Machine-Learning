@@ -1,0 +1,80 @@
+[
+    {
+        "type": "convention",
+        "module": "QuizGame",
+        "obj": "",
+        "line": 5,
+        "column": 10,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Games/QuizGame.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "QuizGame",
+        "obj": "",
+        "line": 19,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Games/QuizGame.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "QuizGame",
+        "obj": "",
+        "line": 47,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Games/QuizGame.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "QuizGame",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Games/QuizGame.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"QuizGame\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "refactor",
+        "module": "QuizGame",
+        "obj": "",
+        "line": 5,
+        "column": 4,
+        "endLine": 5,
+        "endColumn": 10,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Games/QuizGame.py",
+        "symbol": "consider-using-sys-exit",
+        "message": "Consider using 'sys.exit' instead",
+        "message-id": "R1722"
+    },
+    {
+        "type": "convention",
+        "module": "QuizGame",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": 11,
+        "endColumn": 5,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Games/QuizGame.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"score\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]

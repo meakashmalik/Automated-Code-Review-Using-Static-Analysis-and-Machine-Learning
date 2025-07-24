@@ -1,0 +1,80 @@
+[
+    {
+        "type": "error",
+        "module": "background_linux",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 24,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_a_script_to_download_a_random_image_from_unsplash_and_set_it_as_wallpaper/background_linux.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'requests'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "background_linux",
+        "obj": "",
+        "line": 5,
+        "column": 0,
+        "endLine": 5,
+        "endColumn": 3,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_a_script_to_download_a_random_image_from_unsplash_and_set_it_as_wallpaper/background_linux.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"url\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "background_linux",
+        "obj": "",
+        "line": 6,
+        "column": 0,
+        "endLine": 6,
+        "endColumn": 8,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_a_script_to_download_a_random_image_from_unsplash_and_set_it_as_wallpaper/background_linux.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"filename\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "warning",
+        "module": "background_linux",
+        "obj": "download",
+        "line": 9,
+        "column": 13,
+        "endLine": 9,
+        "endColumn": 16,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_a_script_to_download_a_random_image_from_unsplash_and_set_it_as_wallpaper/background_linux.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'url' from outer scope (line 5)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "convention",
+        "module": "background_linux",
+        "obj": "setup",
+        "line": 22,
+        "column": 11,
+        "endLine": 22,
+        "endColumn": 35,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_a_script_to_download_a_random_image_from_unsplash_and_set_it_as_wallpaper/background_linux.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "background_linux",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 35,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_a_script_to_download_a_random_image_from_unsplash_and_set_it_as_wallpaper/background_linux.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"os.system\" should be placed before third party import \"requests.get\"",
+        "message-id": "C0411"
+    }
+]

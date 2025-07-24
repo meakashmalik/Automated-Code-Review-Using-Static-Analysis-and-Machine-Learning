@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "simple-bot",
+        "obj": "",
+        "line": 7,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/chatbot/simple-bot.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "simple-bot",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/chatbot/simple-bot.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"simple-bot\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "simple-bot",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 36,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/chatbot/simple-bot.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'wechaty'",
+        "message-id": "E0401"
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "type": "warning",
+        "module": "dns_record",
+        "obj": "",
+        "line": 22,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Dns_record/dns_record.py",
+        "symbol": "bad-indentation",
+        "message": "Bad indentation. Found 3 spaces, expected 4",
+        "message-id": "W0311"
+    },
+    {
+        "type": "convention",
+        "module": "dns_record",
+        "obj": "",
+        "line": 29,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Dns_record/dns_record.py",
+        "symbol": "trailing-newlines",
+        "message": "Trailing newlines",
+        "message-id": "C0305"
+    },
+    {
+        "type": "error",
+        "module": "dns_record",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "endLine": 3,
+        "endColumn": 19,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Dns_record/dns_record.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'dns.resolver'",
+        "message-id": "E0401"
+    }
+]

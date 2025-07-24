@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "decimal_to_binary",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Decimal_to_binary_convertor_and_vice_versa/decimal_to_binary.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (101/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "convention",
+        "module": "decimal_to_binary",
+        "obj": "",
+        "line": 7,
+        "column": 14,
+        "endLine": 7,
+        "endColumn": 26,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Decimal_to_binary_convertor_and_vice_versa/decimal_to_binary.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "convention",
+        "module": "decimal_to_binary",
+        "obj": "",
+        "line": 10,
+        "column": 14,
+        "endLine": 10,
+        "endColumn": 27,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Decimal_to_binary_convertor_and_vice_versa/decimal_to_binary.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    }
+]

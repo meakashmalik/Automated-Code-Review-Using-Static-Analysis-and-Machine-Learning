@@ -1,0 +1,28 @@
+[
+    {
+        "type": "error",
+        "module": "merge_pdfs",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "endLine": 3,
+        "endColumn": 32,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Merge_pdfs/merge_pdfs.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'PyPDF2'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "refactor",
+        "module": "merge_pdfs",
+        "obj": "by_appending",
+        "line": 10,
+        "column": 9,
+        "endLine": 10,
+        "endColumn": 37,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Merge_pdfs/merge_pdfs.py",
+        "symbol": "consider-using-with",
+        "message": "Consider using 'with' for resource-allocating operations",
+        "message-id": "R1732"
+    }
+]

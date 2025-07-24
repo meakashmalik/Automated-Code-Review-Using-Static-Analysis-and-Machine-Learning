@@ -1,0 +1,54 @@
+[
+    {
+        "type": "error",
+        "module": "cli",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "endLine": 3,
+        "endColumn": 12,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/cli_proxy_tester/cli.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'click'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "refactor",
+        "module": "cli",
+        "obj": "validate_proxy",
+        "line": 16,
+        "column": 4,
+        "endLine": 20,
+        "endColumn": 20,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/cli_proxy_tester/cli.py",
+        "symbol": "no-else-raise",
+        "message": "Unnecessary \"else\" after \"raise\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1720"
+    },
+    {
+        "type": "warning",
+        "module": "cli",
+        "obj": "validate_proxy",
+        "line": 10,
+        "column": 19,
+        "endLine": 10,
+        "endColumn": 22,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/cli_proxy_tester/cli.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'ctx'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "cli",
+        "obj": "validate_proxy",
+        "line": 10,
+        "column": 24,
+        "endLine": 10,
+        "endColumn": 29,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/cli_proxy_tester/cli.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'param'",
+        "message-id": "W0613"
+    }
+]

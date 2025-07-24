@@ -1,0 +1,28 @@
+[
+    {
+        "type": "convention",
+        "module": "zipbruter",
+        "obj": "ZipBruter.worker",
+        "line": 49,
+        "column": 22,
+        "endLine": 49,
+        "endColumn": 40,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Zip_Bruter/zipbruter.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "warning",
+        "module": "zipbruter",
+        "obj": "ZipBruter.read_wordlist",
+        "line": 72,
+        "column": 13,
+        "endLine": 72,
+        "endColumn": 38,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Zip_Bruter/zipbruter.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    }
+]

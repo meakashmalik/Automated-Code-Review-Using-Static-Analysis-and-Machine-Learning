@@ -1,0 +1,54 @@
+[
+    {
+        "type": "refactor",
+        "module": "main",
+        "obj": "getfoldername",
+        "line": 24,
+        "column": 4,
+        "endLine": 27,
+        "endColumn": 21,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_script_to_move_files_into_alphabetically_ordered_folder/main.py",
+        "symbol": "no-else-return",
+        "message": "Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it",
+        "message-id": "R1705"
+    },
+    {
+        "type": "warning",
+        "module": "main",
+        "obj": "readdirectory",
+        "line": 34,
+        "column": 4,
+        "endLine": 34,
+        "endColumn": 20,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_script_to_move_files_into_alphabetically_ordered_folder/main.py",
+        "symbol": "global-variable-not-assigned",
+        "message": "Using global for 'filenames' but no assignment is done",
+        "message-id": "W0602"
+    },
+    {
+        "type": "warning",
+        "module": "main",
+        "obj": "createfolder",
+        "line": 46,
+        "column": 4,
+        "endLine": 46,
+        "endColumn": 20,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_script_to_move_files_into_alphabetically_ordered_folder/main.py",
+        "symbol": "global-variable-not-assigned",
+        "message": "Using global for 'filenames' but no assignment is done",
+        "message-id": "W0602"
+    },
+    {
+        "type": "warning",
+        "module": "main",
+        "obj": "movetofolder",
+        "line": 62,
+        "column": 4,
+        "endLine": 62,
+        "endColumn": 20,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Write_script_to_move_files_into_alphabetically_ordered_folder/main.py",
+        "symbol": "global-variable-not-assigned",
+        "message": "Using global for 'filenames' but no assignment is done",
+        "message-id": "W0602"
+    }
+]

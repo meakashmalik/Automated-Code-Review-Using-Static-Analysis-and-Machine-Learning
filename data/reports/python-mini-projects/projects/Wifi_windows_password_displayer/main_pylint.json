@@ -1,0 +1,67 @@
+[
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Wifi_windows_password_displayer/main.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (103/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "warning",
+        "module": "main",
+        "obj": "PwdDisplay.export_xml",
+        "line": 18,
+        "column": 13,
+        "endLine": 18,
+        "endColumn": 33,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Wifi_windows_password_displayer/main.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    },
+    {
+        "type": "warning",
+        "module": "main",
+        "obj": "PwdDisplay.export_xml",
+        "line": 20,
+        "column": 12,
+        "endLine": 20,
+        "endColumn": 53,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Wifi_windows_password_displayer/main.py",
+        "symbol": "subprocess-run-check",
+        "message": "'subprocess.run' used without explicitly defining the value for 'check'.",
+        "message-id": "W1510"
+    },
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "PwdDisplay.display_password",
+        "line": 43,
+        "column": 8,
+        "endLine": 47,
+        "endColumn": 20,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Wifi_windows_password_displayer/main.py",
+        "symbol": "consider-using-dict-items",
+        "message": "Consider iterating with .items()",
+        "message-id": "C0206"
+    },
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 61,
+        "column": 4,
+        "endLine": 61,
+        "endColumn": 12,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Wifi_windows_password_displayer/main.py",
+        "symbol": "invalid-name",
+        "message": "Class name \"instance\" doesn't conform to PascalCase naming style",
+        "message-id": "C0103"
+    }
+]

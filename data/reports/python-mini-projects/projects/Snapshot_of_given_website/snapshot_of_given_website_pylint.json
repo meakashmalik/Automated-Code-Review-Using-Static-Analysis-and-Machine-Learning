@@ -1,0 +1,80 @@
+[
+    {
+        "type": "convention",
+        "module": "snapshot_of_given_website",
+        "obj": "",
+        "line": 26,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Snapshot_of_given_website/snapshot_of_given_website.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "error",
+        "module": "snapshot_of_given_website",
+        "obj": "",
+        "line": 3,
+        "column": 0,
+        "endLine": 3,
+        "endColumn": 30,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Snapshot_of_given_website/snapshot_of_given_website.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'selenium'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "snapshot_of_given_website",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 53,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Snapshot_of_given_website/snapshot_of_given_website.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'selenium.webdriver.chrome.options'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "snapshot_of_given_website",
+        "obj": "",
+        "line": 5,
+        "column": 0,
+        "endLine": 5,
+        "endColumn": 26,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Snapshot_of_given_website/snapshot_of_given_website.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'chromedriver_binary'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "snapshot_of_given_website",
+        "obj": "",
+        "line": 26,
+        "column": 10,
+        "endLine": 26,
+        "endColumn": 25,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Snapshot_of_given_website/snapshot_of_given_website.py",
+        "symbol": "consider-using-f-string",
+        "message": "Formatting a regular string which could be an f-string",
+        "message-id": "C0209"
+    },
+    {
+        "type": "warning",
+        "module": "snapshot_of_given_website",
+        "obj": "",
+        "line": 5,
+        "column": 0,
+        "endLine": 5,
+        "endColumn": 26,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Snapshot_of_given_website/snapshot_of_given_website.py",
+        "symbol": "unused-import",
+        "message": "Unused import chromedriver_binary",
+        "message-id": "W0611"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "type": "warning",
+        "module": "time_to_load_website",
+        "obj": "get_load_time",
+        "line": 5,
+        "column": 18,
+        "endLine": 5,
+        "endColumn": 21,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Time_to_load_website/time_to_load_website.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'url' from outer scope (line 30)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "refactor",
+        "module": "time_to_load_website",
+        "obj": "get_load_time",
+        "line": 19,
+        "column": 24,
+        "endLine": 19,
+        "endColumn": 49,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Time_to_load_website/time_to_load_website.py",
+        "symbol": "consider-using-with",
+        "message": "Consider using 'with' for resource-allocating operations",
+        "message-id": "R1732"
+    }
+]

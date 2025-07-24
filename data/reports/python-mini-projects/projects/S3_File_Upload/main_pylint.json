@@ -1,0 +1,80 @@
+[
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 11,
+        "column": 110,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/S3_File_Upload/main.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 11,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/S3_File_Upload/main.py",
+        "symbol": "line-too-long",
+        "message": "Line too long (110/100)",
+        "message-id": "C0301"
+    },
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 26,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/S3_File_Upload/main.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "error",
+        "module": "main",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 12,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/S3_File_Upload/main.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'boto3'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "main",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 50,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/S3_File_Upload/main.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'botocore.exceptions'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 26,
+        "column": 0,
+        "endLine": 26,
+        "endColumn": 6,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/S3_File_Upload/main.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"result\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]

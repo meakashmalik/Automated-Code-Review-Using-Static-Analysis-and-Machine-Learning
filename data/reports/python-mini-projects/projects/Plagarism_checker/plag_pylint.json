@@ -1,0 +1,93 @@
+[
+    {
+        "type": "error",
+        "module": "plag",
+        "obj": "",
+        "line": 4,
+        "column": 0,
+        "endLine": 4,
+        "endColumn": 59,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Plagarism_checker/plag.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'sklearn.feature_extraction.text'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "plag",
+        "obj": "",
+        "line": 5,
+        "column": 0,
+        "endLine": 5,
+        "endColumn": 54,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Plagarism_checker/plag.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'sklearn.metrics.pairwise'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "refactor",
+        "module": "plag",
+        "obj": "",
+        "line": 8,
+        "column": 14,
+        "endLine": 8,
+        "endColumn": 43,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Plagarism_checker/plag.py",
+        "symbol": "consider-using-with",
+        "message": "Consider using 'with' for resource-allocating operations",
+        "message-id": "R1732"
+    },
+    {
+        "type": "convention",
+        "module": "plag",
+        "obj": "vectorize",
+        "line": 12,
+        "column": 14,
+        "endLine": 12,
+        "endColumn": 18,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Plagarism_checker/plag.py",
+        "symbol": "invalid-name",
+        "message": "Argument name \"Text\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "plag",
+        "obj": "vectorize",
+        "line": 12,
+        "column": 21,
+        "endLine": 12,
+        "endColumn": 75,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Plagarism_checker/plag.py",
+        "symbol": "multiple-statements",
+        "message": "More than one statement on a single line",
+        "message-id": "C0321"
+    },
+    {
+        "type": "convention",
+        "module": "plag",
+        "obj": "similarity",
+        "line": 13,
+        "column": 28,
+        "endLine": 13,
+        "endColumn": 66,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Plagarism_checker/plag.py",
+        "symbol": "multiple-statements",
+        "message": "More than one statement on a single line",
+        "message-id": "C0321"
+    },
+    {
+        "type": "warning",
+        "module": "plag",
+        "obj": "check_plagiarism",
+        "line": 22,
+        "column": 4,
+        "endLine": 22,
+        "endColumn": 20,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Plagarism_checker/plag.py",
+        "symbol": "global-variable-not-assigned",
+        "message": "Using global for 's_vectors' but no assignment is done",
+        "message-id": "W0602"
+    }
+]

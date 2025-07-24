@@ -1,0 +1,93 @@
+[
+    {
+        "type": "convention",
+        "module": "txtToSpeech",
+        "obj": "",
+        "line": 1,
+        "column": 21,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Text_to_speech/txtToSpeech.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "txtToSpeech",
+        "obj": "",
+        "line": 9,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Text_to_speech/txtToSpeech.py",
+        "symbol": "missing-final-newline",
+        "message": "Final newline missing",
+        "message-id": "C0304"
+    },
+    {
+        "type": "convention",
+        "module": "txtToSpeech",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Text_to_speech/txtToSpeech.py",
+        "symbol": "invalid-name",
+        "message": "Module name \"txtToSpeech\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "error",
+        "module": "txtToSpeech",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 21,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Text_to_speech/txtToSpeech.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'gtts'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "refactor",
+        "module": "txtToSpeech",
+        "obj": "",
+        "line": 3,
+        "column": 7,
+        "endLine": 3,
+        "endColumn": 27,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Text_to_speech/txtToSpeech.py",
+        "symbol": "consider-using-with",
+        "message": "Consider using 'with' for resource-allocating operations",
+        "message-id": "R1732"
+    },
+    {
+        "type": "warning",
+        "module": "txtToSpeech",
+        "obj": "",
+        "line": 3,
+        "column": 7,
+        "endLine": 3,
+        "endColumn": 27,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Text_to_speech/txtToSpeech.py",
+        "symbol": "unspecified-encoding",
+        "message": "Using open without explicitly specifying an encoding",
+        "message-id": "W1514"
+    },
+    {
+        "type": "convention",
+        "module": "txtToSpeech",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 9,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Text_to_speech/txtToSpeech.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"os\" should be placed before third party import \"gtts.gTTS\"",
+        "message-id": "C0411"
+    }
+]

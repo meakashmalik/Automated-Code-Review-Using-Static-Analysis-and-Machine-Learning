@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Code Review</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        textarea { width: 100%; height: 250px; padding: 10px; border: 1px solid #ddd; border-radius: 4px; resize: vertical; margin-bottom: 10px; font-family: 'Courier New', Courier, monospace; }
+        button { background-color: #007bff; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
+        button:hover { background-color: #0056b3; }
+        .results-section { margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px; }
+        .issue { background-color: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 15px; margin-bottom: 15px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+        .issue strong { color: #333; }
+        .issue p { margin: 5px 0; }
+        .issue .suggestion { font-style: italic; color: #007bff; }
+        .issue .false-positive { color: #dc3545; font-weight: bold; }
+        .issue .true-positive { color: #28a745; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Automated Python Code Review</h1>
+        <p>Paste your Python code below and click 'Review' to get AI-powered insights.</p>
+        <form method="POST">
+            <textarea name="code_input" placeholder="Paste your Python code here...">{{ request.form['code_input'] if request.form['code_input'] else '' }}</textarea>
+            <button type="submit">Review Code</button>
+        </form>
+
+        {% if review_results %}
+            <div class="results-section">
+                <h2>Review Results:</h2>
+                {% if review_results[0].error %}
+                    <p style="color: red;">{{ review_results[0].error }}</p>
+                {% else %}
+                    {% for issue in review_results %}
+                        <div class="issue">
+                            <p><strong>Line {{ issue.line }}:</strong> <code>{{ issue.code_snippet }}</code></p>
+                            <p><strong>Pylint:</strong> {{ issue.original_pylint_symbol }} ({{ issue.original_pylint_message }})</p>
+                            <p><strong>AI Predicted Type:</strong> {{ issue.predicted_message_id }} (Confidence: {{ issue.msg_id_confidence }})</p>
+                            <p><strong>AI Predicted False Positive:</strong> 
+                                <span class="{% if issue.is_false_positive_prediction == 'YES' %}false-positive{% else %}true-positive{% endif %}">
+                                    {{ issue.is_false_positive_prediction }}
+                                </span> 
+                                (Confidence: {{ issue.fp_confidence }})
+                            </p>
+                            <p class="suggestion"><strong>{{ issue.suggestion }}</strong></p>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

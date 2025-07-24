@@ -1,0 +1,67 @@
+[
+    {
+        "type": "convention",
+        "module": "battery",
+        "obj": "",
+        "line": 9,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Battery_notification/battery.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "battery",
+        "obj": "",
+        "line": 18,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Battery_notification/battery.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "error",
+        "module": "battery",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 13,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Battery_notification/battery.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'psutil'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "battery",
+        "obj": "",
+        "line": 8,
+        "column": 21,
+        "endLine": 8,
+        "endColumn": 34,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Battery_notification/battery.py",
+        "symbol": "singleton-comparison",
+        "message": "Comparison 'plugged != True' should be 'plugged is not True' if checking for the singleton value True, or 'not plugged' if testing for falsiness",
+        "message-id": "C0121"
+    },
+    {
+        "type": "error",
+        "module": "battery",
+        "obj": "",
+        "line": 12,
+        "column": 4,
+        "endLine": 12,
+        "endColumn": 39,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Battery_notification/battery.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'pynotifier'",
+        "message-id": "E0401"
+    }
+]

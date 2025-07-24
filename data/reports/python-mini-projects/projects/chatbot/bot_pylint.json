@@ -1,0 +1,67 @@
+[
+    {
+        "type": "error",
+        "module": "bot",
+        "obj": "",
+        "line": 5,
+        "column": 0,
+        "endLine": 5,
+        "endColumn": 37,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/chatbot/bot.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'wechaty_puppet'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "error",
+        "module": "bot",
+        "obj": "",
+        "line": 6,
+        "column": 0,
+        "endLine": 19,
+        "endColumn": 1,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/chatbot/bot.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'wechaty'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "bot",
+        "obj": "MyBot.on_friendship",
+        "line": 190,
+        "column": 8,
+        "endLine": 190,
+        "endColumn": 29,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/chatbot/bot.py",
+        "symbol": "invalid-name",
+        "message": "Variable name \"MAX_ROOM_MEMBER_COUNT\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "warning",
+        "module": "bot",
+        "obj": "MyBot.on_room_join",
+        "line": 214,
+        "column": 27,
+        "endLine": 214,
+        "endColumn": 43,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/chatbot/bot.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'inviter'",
+        "message-id": "W0613"
+    },
+    {
+        "type": "warning",
+        "module": "bot",
+        "obj": "MyBot.on_room_join",
+        "line": 214,
+        "column": 45,
+        "endLine": 214,
+        "endColumn": 59,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/chatbot/bot.py",
+        "symbol": "unused-argument",
+        "message": "Unused argument 'date'",
+        "message-id": "W0613"
+    }
+]

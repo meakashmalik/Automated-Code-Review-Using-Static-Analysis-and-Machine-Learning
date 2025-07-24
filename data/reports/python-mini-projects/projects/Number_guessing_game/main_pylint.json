@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 54,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Number_guessing_game/main.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "main",
+        "obj": "",
+        "line": 14,
+        "column": 0,
+        "endLine": 14,
+        "endColumn": 7,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Number_guessing_game/main.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"chances\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "refactor",
+        "module": "main",
+        "obj": "",
+        "line": 27,
+        "column": 4,
+        "endLine": 50,
+        "endColumn": 74,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Number_guessing_game/main.py",
+        "symbol": "no-else-break",
+        "message": "Unnecessary \"elif\" after \"break\", remove the leading \"el\" from \"elif\"",
+        "message-id": "R1723"
+    }
+]

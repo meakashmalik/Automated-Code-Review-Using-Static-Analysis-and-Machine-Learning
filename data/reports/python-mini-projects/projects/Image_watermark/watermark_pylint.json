@@ -1,0 +1,54 @@
+[
+    {
+        "type": "convention",
+        "module": "watermark",
+        "obj": "",
+        "line": 45,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Image_watermark/watermark.py",
+        "symbol": "trailing-newlines",
+        "message": "Trailing newlines",
+        "message-id": "C0305"
+    },
+    {
+        "type": "error",
+        "module": "watermark",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 21,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Image_watermark/watermark.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'PIL'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "warning",
+        "module": "watermark",
+        "obj": "watermark_photo",
+        "line": 6,
+        "column": 4,
+        "endLine": 6,
+        "endColumn": 13,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Image_watermark/watermark.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'watermark' from outer scope (line 32)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "convention",
+        "module": "watermark",
+        "obj": "",
+        "line": 40,
+        "column": 0,
+        "endLine": 40,
+        "endColumn": 1,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Image_watermark/watermark.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"c\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    }
+]

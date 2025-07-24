@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "videosplitter",
+        "obj": "",
+        "line": 17,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Split_a_video_file_by_given_time_period/videosplitter.py",
+        "symbol": "superfluous-parens",
+        "message": "Unnecessary parens after '=' keyword",
+        "message-id": "C0325"
+    },
+    {
+        "type": "error",
+        "module": "videosplitter",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 13,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Split_a_video_file_by_given_time_period/videosplitter.py",
+        "symbol": "import-error",
+        "message": "Unable to import 'ffmpeg'",
+        "message-id": "E0401"
+    },
+    {
+        "type": "convention",
+        "module": "videosplitter",
+        "obj": "",
+        "line": 2,
+        "column": 0,
+        "endLine": 2,
+        "endColumn": 15,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Split_a_video_file_by_given_time_period/videosplitter.py",
+        "symbol": "wrong-import-order",
+        "message": "standard import \"argparse\" should be placed before third party import \"ffmpeg\"",
+        "message-id": "C0411"
+    }
+]

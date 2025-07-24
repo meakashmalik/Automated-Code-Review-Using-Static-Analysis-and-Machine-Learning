@@ -1,0 +1,67 @@
+[
+    {
+        "type": "convention",
+        "module": "extract_zip_files",
+        "obj": "",
+        "line": 24,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Extract_zip_files/extract_zip_files.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "extract_zip_files",
+        "obj": "",
+        "line": 35,
+        "column": 17,
+        "endLine": null,
+        "endColumn": null,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Extract_zip_files/extract_zip_files.py",
+        "symbol": "trailing-whitespace",
+        "message": "Trailing whitespace",
+        "message-id": "C0303"
+    },
+    {
+        "type": "convention",
+        "module": "extract_zip_files",
+        "obj": "",
+        "line": 17,
+        "column": 3,
+        "endLine": 17,
+        "endColumn": 36,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Extract_zip_files/extract_zip_files.py",
+        "symbol": "singleton-comparison",
+        "message": "Comparison 'os.path.exists(zip_file) == False' should be 'os.path.exists(zip_file) is False' if checking for the singleton value False, or 'not os.path.exists(zip_file)' if testing for falsiness",
+        "message-id": "C0121"
+    },
+    {
+        "type": "warning",
+        "module": "extract_zip_files",
+        "obj": "extract",
+        "line": 21,
+        "column": 12,
+        "endLine": 21,
+        "endColumn": 20,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Extract_zip_files/extract_zip_files.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'zip_file' from outer scope (line 12)",
+        "message-id": "W0621"
+    },
+    {
+        "type": "warning",
+        "module": "extract_zip_files",
+        "obj": "extract",
+        "line": 22,
+        "column": 4,
+        "endLine": 22,
+        "endColumn": 13,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/Extract_zip_files/extract_zip_files.py",
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'file_name' from outer scope (line 14)",
+        "message-id": "W0621"
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "type": "convention",
+        "module": "conversion",
+        "obj": "obj",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 9,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/convert_dictionary_to_python_object/conversion.py",
+        "symbol": "invalid-name",
+        "message": "Class name \"obj\" doesn't conform to PascalCase naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "refactor",
+        "module": "conversion",
+        "obj": "obj",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 9,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/convert_dictionary_to_python_object/conversion.py",
+        "symbol": "useless-object-inheritance",
+        "message": "Class 'obj' inherits from object, can be safely removed from bases in python3",
+        "message-id": "R0205"
+    },
+    {
+        "type": "refactor",
+        "module": "conversion",
+        "obj": "obj",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
+        "endColumn": 9,
+        "path": "/Users/manishsingh/Desktop/Mini Project /automated-code-review/data/raw/python-mini-projects/projects/convert_dictionary_to_python_object/conversion.py",
+        "symbol": "too-few-public-methods",
+        "message": "Too few public methods (0/2)",
+        "message-id": "R0903"
+    }
+]
